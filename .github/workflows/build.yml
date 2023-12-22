@@ -22,6 +22,6 @@ jobs:
     - name: Instal NPM
       run: npm install
     - name: Run the unit tests
-      run: npm test:unit
+      run: npm run test:unit
     - name: Show SoftUni username
       run: echo "trafffer"
